@@ -51,7 +51,7 @@ job('Job test Hola Mundo') {
 	scm {
 		git('https://github.com/gasteiz1921/-simple-java-maven-app-.git', 'master') { node ->
 		    node / gitConfigName('gasteiz1921')
-		    node / gitConfigEmail("gasteiz1921@gmail.com')
+		    node / gitConfigEmail('gasteiz1921@gmail.com')
 		}
 	}
 	triggers {
