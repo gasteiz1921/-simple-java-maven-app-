@@ -59,7 +59,7 @@ job('Job test Hola Mundo') {
     	}    
 	steps {
 		shell('''
-			echo "Hola Mundo Jaime Altuna Morlesin ACEDO BENGOETXEA!!!!"
+			echo "Hola Mundo Jaime Altuna Morlesin ACEDO BENGOETXEA NOSEQUE!!!!"
 		''')
 	}
 }
